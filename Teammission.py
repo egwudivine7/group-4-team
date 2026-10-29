@@ -21,8 +21,10 @@ zero_event = event_total(zero_cost, 5000)
 print(zero_event)
 
 def budget_status(budget, normal_event):
-    if normal_event <= budget:
+    if normal_event < budget:
         return "Within budget"
+    elif: normal_event == budget
+        return "exactly equal to budget"
     else:
         return "Over budget"
     
