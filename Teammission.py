@@ -9,6 +9,7 @@ print(normal_cost)
 zero_cost = participant_cost(0, 800, 200)
 print(zero_cost)
 
+######################################
 def event_total(normal_cost, venue_cost):
     return normal_cost + venue_cost
 
